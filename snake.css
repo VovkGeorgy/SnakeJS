@@ -1,0 +1,55 @@
+body {
+    background: darkslategray;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    text-align: center;
+}
+
+.pointsDiv {
+    height: auto;
+}
+
+.mainDiv {
+    min-height: 70px;
+}
+
+.field {
+    margin: 0 auto;
+    border-style: groove;
+    border-width: 4px;
+    border-color: white;
+}
+
+.cell {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 18px;
+    height: 18px;
+}
+
+.snakeCell {
+    display: inline-block;
+    background: lawngreen;
+    width: 20px;
+    height: 20px;
+}
+
+.row {
+    height: 20px;
+}
+
+.button{
+    margin: 0 auto;
+    width: 180px;
+    background: lawngreen;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    visibility: visible;
+    cursor:pointer;
+}
