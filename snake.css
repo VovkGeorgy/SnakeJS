@@ -1,5 +1,5 @@
 body {
-    background: darkslategray;
+    background: #333;
 }
 
 h1, h2, h3, h4 {
@@ -7,12 +7,8 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-.pointsDiv {
+div {
     height: auto;
-}
-
-.mainDiv {
-    min-height: 70px;
 }
 
 .field {
@@ -23,6 +19,10 @@ h1, h2, h3, h4 {
 }
 
 .cell {
+    /* DEBUG */
+    /*
+    background: gray;
+    */
     display: inline-block;
     border-style: solid;
     border-width: 1px;
@@ -31,25 +31,19 @@ h1, h2, h3, h4 {
     height: 18px;
 }
 
-.snakeCell {
+.snake-cell {
     display: inline-block;
-    background: lawngreen;
+    background: green;
     width: 20px;
     height: 20px;
 }
 
 .row {
+    /* DEBUG */
+    /*
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    */
     height: 20px;
-}
-
-.button{
-    margin: 0 auto;
-    width: 180px;
-    background: lawngreen;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 44px;
-    font-weight: 900;
-    visibility: visible;
-    cursor:pointer;
 }
